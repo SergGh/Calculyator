@@ -1,0 +1,58 @@
+[33mcommit 07c2fa731898331b39bca336322eb651b926f09e[m
+Author: Sergey Ghazaryan <makeebetterrworldd@gmail.com>
+Date:   Thu Jan 12 16:56:26 2017 +0300
+
+    three commit
+
+[1mdiff --git a/app/src/main/res/layout/activity_main.xml b/app/src/main/res/layout/activity_main.xml[m
+[1mindex 8f1b096..5388417 100644[m
+[1m--- a/app/src/main/res/layout/activity_main.xml[m
+[1m+++ b/app/src/main/res/layout/activity_main.xml[m
+[36m@@ -47,15 +47,6 @@[m
+         android:id="@+id/button3" />[m
+ [m
+     <Button[m
+[31m-        android:text="+"[m
+[31m-        android:layout_width="wrap_content"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_alignTop="@+id/button3"[m
+[31m-        android:layout_alignParentRight="true"[m
+[31m-        android:layout_alignParentEnd="true"[m
+[31m-        android:id="@+id/plus" />[m
+[31m-[m
+[31m-    <Button[m
+         android:text="4"[m
+         android:layout_width="wrap_content"[m
+         android:layout_height="wrap_content"[m
+[36m@@ -75,15 +66,6 @@[m
+         android:id="@+id/button5" />[m
+ [m
+     <Button[m
+[31m-        android:text="-"[m
+[31m-        android:layout_width="wrap_content"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:layout_below="@+id/plus"[m
+[31m-        android:layout_alignLeft="@+id/plus"[m
+[31m-        android:layout_alignStart="@+id/plus"[m
+[31m-        android:id="@+id/minus" />[m
+[31m-[m
+[31m-    <Button[m
+         android:text="7"[m
+         android:layout_width="wrap_content"[m
+         android:layout_height="wrap_content"[m
+[36m@@ -120,15 +102,6 @@[m
+         android:layout_toRightOf="@+id/button5"[m
+         android:layout_toEndOf="@+id/button5" />[m
+ [m
+[31m-    <Button[m
+[31m-        android:text="x"[m
+[31m-        android:layout_width="wrap_content"[m
+[31m-        android:layout_height="wrap_content"[m
+[31m-        android:id="@+id/bazm"[m
+[31m-        android:layout_below="@+id/minus"[m
+[31m-        android:layout_alignParentRight="true"[m
+[31m-        android:layout_alignParentEnd="true" />[m
+[31m-[m
+     <EditText[m
+         android:layout_width="wrap_content"[m
+         android:layout_height="wrap_content"[m
