@@ -47,6 +47,15 @@
         android:id="@+id/button3" />
 
     <Button
+        android:text="+"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/plus" />
+
+    <Button
         android:text="4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -64,6 +73,15 @@
         android:layout_alignLeft="@+id/button2"
         android:layout_alignStart="@+id/button2"
         android:id="@+id/button5" />
+
+    <Button
+        android:text="-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plus"
+        android:layout_alignLeft="@+id/plus"
+        android:layout_alignStart="@+id/plus"
+        android:id="@+id/minus" />
 
     <Button
         android:text="7"
@@ -84,6 +102,15 @@
         android:id="@+id/button0" />
 
     <Button
+        android:text="/"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bazm"
+        android:layout_alignLeft="@+id/bazm"
+        android:layout_alignStart="@+id/bazm"
+        android:id="@+id/baja" />
+
+    <Button
         android:text="8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -101,6 +128,15 @@
         android:layout_alignBottom="@+id/button5"
         android:layout_toRightOf="@+id/button5"
         android:layout_toEndOf="@+id/button5" />
+
+    <Button
+        android:text="x"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bazm"
+        android:layout_below="@+id/minus"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <EditText
         android:layout_width="wrap_content"
